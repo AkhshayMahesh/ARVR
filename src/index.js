@@ -31,7 +31,7 @@ let theme = createTheme({
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-    <BrowserRouter>
+    <BrowserRouter basename="/ARVR">
       <ScrollToTop />
       <App />
     </BrowserRouter>

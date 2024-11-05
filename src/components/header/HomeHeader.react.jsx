@@ -76,12 +76,12 @@ const HomeHeader = ({ props }) => {
               <ListItemText primary="Diet" />
             </ListItemButton>
           </a> */}
-          <a href="/yoga" className="link" onClick={handleDrawerToggle}>
+          <a href="/ARVR/yoga" className="link" onClick={handleDrawerToggle}>
             <ListItemButton>
               <ListItemText primary="Yoga" />
             </ListItemButton>
           </a>
-          <a href="/workout" className="link" onClick={handleDrawerToggle}>
+          <a href="/ARVR/workout" className="link" onClick={handleDrawerToggle}>
             <ListItemButton>
               <ListItemText primary="Workout" />
             </ListItemButton>
@@ -180,13 +180,13 @@ const HomeHeader = ({ props }) => {
               <a href="/diet" className="link">
                 <Button variant="h6">Diet</Button>
               </a> */}
-              <a href="/yoga" className="link">
+              <a href="/ARVR/yoga" className="link">
                 <Button variant="h6">Yoga</Button>
               </a>
-              <a href="/workout" className="link">
+              <a href="/ARVR/workout" className="link">
                 <Button variant="h6">Workout</Button>
               </a>
-              <Link to="/" className="link">
+              <Link to="/ARVR" className="link">
                 <Button
                   variant="contained"
                   color="secondary"
