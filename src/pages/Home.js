@@ -390,7 +390,7 @@ export const Home = () => {
                   fontSize: { lg: "2rem", sm: "1.5rem", xs: "1rem" },
                 }}
               >
-                Welcome to AR FITNESS!
+                Welcome to ARVR project!
               </Typography>
               <Typography
                 variant="h4"
